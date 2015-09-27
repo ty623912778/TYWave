@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046E25FB1BB7BE7F004D4227 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E25FA1BB7BE7F004D4227 /* main.m */; };
+		046E25FE1BB7BE7F004D4227 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E25FD1BB7BE7F004D4227 /* AppDelegate.m */; };
+		046E26011BB7BE7F004D4227 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E26001BB7BE7F004D4227 /* ViewController.m */; };
+		046E26041BB7BE7F004D4227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046E26021BB7BE7F004D4227 /* Main.storyboard */; };
+		046E26061BB7BE7F004D4227 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046E26051BB7BE7F004D4227 /* Images.xcassets */; };
+		046E26091BB7BE7F004D4227 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046E26071BB7BE7F004D4227 /* LaunchScreen.xib */; };
+		046E26151BB7BE7F004D4227 /* TYWaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E26141BB7BE7F004D4227 /* TYWaveTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046E260F1BB7BE7F004D4227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046E25ED1BB7BE7F004D4227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046E25F41BB7BE7F004D4227;
+			remoteInfo = TYWave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046E25F51BB7BE7F004D4227 /* TYWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046E25F91BB7BE7F004D4227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046E25FA1BB7BE7F004D4227 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		046E25FC1BB7BE7F004D4227 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		046E25FD1BB7BE7F004D4227 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		046E25FF1BB7BE7F004D4227 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		046E26001BB7BE7F004D4227 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		046E26031BB7BE7F004D4227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046E26051BB7BE7F004D4227 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		046E26081BB7BE7F004D4227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		046E260E1BB7BE7F004D4227 /* TYWaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYWaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046E26131BB7BE7F004D4227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046E26141BB7BE7F004D4227 /* TYWaveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYWaveTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046E25F21BB7BE7F004D4227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046E260B1BB7BE7F004D4227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046E25EC1BB7BE7F004D4227 = {
+			isa = PBXGroup;
+			children = (
+				046E25F71BB7BE7F004D4227 /* TYWave */,
+				046E26111BB7BE7F004D4227 /* TYWaveTests */,
+				046E25F61BB7BE7F004D4227 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046E25F61BB7BE7F004D4227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046E25F51BB7BE7F004D4227 /* TYWave.app */,
+				046E260E1BB7BE7F004D4227 /* TYWaveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046E25F71BB7BE7F004D4227 /* TYWave */ = {
+			isa = PBXGroup;
+			children = (
+				046E25FC1BB7BE7F004D4227 /* AppDelegate.h */,
+				046E25FD1BB7BE7F004D4227 /* AppDelegate.m */,
+				046E25FF1BB7BE7F004D4227 /* ViewController.h */,
+				046E26001BB7BE7F004D4227 /* ViewController.m */,
+				046E26021BB7BE7F004D4227 /* Main.storyboard */,
+				046E26051BB7BE7F004D4227 /* Images.xcassets */,
+				046E26071BB7BE7F004D4227 /* LaunchScreen.xib */,
+				046E25F81BB7BE7F004D4227 /* Supporting Files */,
+			);
+			path = TYWave;
+			sourceTree = "<group>";
+		};
+		046E25F81BB7BE7F004D4227 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				046E25F91BB7BE7F004D4227 /* Info.plist */,
+				046E25FA1BB7BE7F004D4227 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		046E26111BB7BE7F004D4227 /* TYWaveTests */ = {
+			isa = PBXGroup;
+			children = (
+				046E26141BB7BE7F004D4227 /* TYWaveTests.m */,
+				046E26121BB7BE7F004D4227 /* Supporting Files */,
+			);
+			path = TYWaveTests;
+			sourceTree = "<group>";
+		};
+		046E26121BB7BE7F004D4227 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				046E26131BB7BE7F004D4227 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046E25F41BB7BE7F004D4227 /* TYWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046E26181BB7BE7F004D4227 /* Build configuration list for PBXNativeTarget "TYWave" */;
+			buildPhases = (
+				046E25F11BB7BE7F004D4227 /* Sources */,
+				046E25F21BB7BE7F004D4227 /* Frameworks */,
+				046E25F31BB7BE7F004D4227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYWave;
+			productName = TYWave;
+			productReference = 046E25F51BB7BE7F004D4227 /* TYWave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046E260D1BB7BE7F004D4227 /* TYWaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046E261B1BB7BE7F004D4227 /* Build configuration list for PBXNativeTarget "TYWaveTests" */;
+			buildPhases = (
+				046E260A1BB7BE7F004D4227 /* Sources */,
+				046E260B1BB7BE7F004D4227 /* Frameworks */,
+				046E260C1BB7BE7F004D4227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046E26101BB7BE7F004D4227 /* PBXTargetDependency */,
+			);
+			name = TYWaveTests;
+			productName = TYWaveTests;
+			productReference = 046E260E1BB7BE7F004D4227 /* TYWaveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046E25ED1BB7BE7F004D4227 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					046E25F41BB7BE7F004D4227 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					046E260D1BB7BE7F004D4227 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 046E25F41BB7BE7F004D4227;
+					};
+				};
+			};
+			buildConfigurationList = 046E25F01BB7BE7F004D4227 /* Build configuration list for PBXProject "TYWave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046E25EC1BB7BE7F004D4227;
+			productRefGroup = 046E25F61BB7BE7F004D4227 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046E25F41BB7BE7F004D4227 /* TYWave */,
+				046E260D1BB7BE7F004D4227 /* TYWaveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046E25F31BB7BE7F004D4227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046E26041BB7BE7F004D4227 /* Main.storyboard in Resources */,
+				046E26091BB7BE7F004D4227 /* LaunchScreen.xib in Resources */,
+				046E26061BB7BE7F004D4227 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046E260C1BB7BE7F004D4227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046E25F11BB7BE7F004D4227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046E26011BB7BE7F004D4227 /* ViewController.m in Sources */,
+				046E25FE1BB7BE7F004D4227 /* AppDelegate.m in Sources */,
+				046E25FB1BB7BE7F004D4227 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046E260A1BB7BE7F004D4227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046E26151BB7BE7F004D4227 /* TYWaveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046E26101BB7BE7F004D4227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046E25F41BB7BE7F004D4227 /* TYWave */;
+			targetProxy = 046E260F1BB7BE7F004D4227 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046E26021BB7BE7F004D4227 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046E26031BB7BE7F004D4227 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046E26071BB7BE7F004D4227 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046E26081BB7BE7F004D4227 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046E26161BB7BE7F004D4227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		046E26171BB7BE7F004D4227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046E26191BB7BE7F004D4227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYWave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		046E261A1BB7BE7F004D4227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYWave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		046E261C1BB7BE7F004D4227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TYWaveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYWave.app/TYWave";
+			};
+			name = Debug;
+		};
+		046E261D1BB7BE7F004D4227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TYWaveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYWave.app/TYWave";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046E25F01BB7BE7F004D4227 /* Build configuration list for PBXProject "TYWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046E26161BB7BE7F004D4227 /* Debug */,
+				046E26171BB7BE7F004D4227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046E26181BB7BE7F004D4227 /* Build configuration list for PBXNativeTarget "TYWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046E26191BB7BE7F004D4227 /* Debug */,
+				046E261A1BB7BE7F004D4227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		046E261B1BB7BE7F004D4227 /* Build configuration list for PBXNativeTarget "TYWaveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046E261C1BB7BE7F004D4227 /* Debug */,
+				046E261D1BB7BE7F004D4227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046E25ED1BB7BE7F004D4227 /* Project object */;
+}
