@@ -14,6 +14,15 @@
 		046E26061BB7BE7F004D4227 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046E26051BB7BE7F004D4227 /* Images.xcassets */; };
 		046E26091BB7BE7F004D4227 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046E26071BB7BE7F004D4227 /* LaunchScreen.xib */; };
 		046E26151BB7BE7F004D4227 /* TYWaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E26141BB7BE7F004D4227 /* TYWaveTests.m */; };
+		046E26221BB7BF2E004D4227 /* fb_rotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 046E26201BB7BF2E004D4227 /* fb_rotation.png */; };
+		046E26231BB7BF2E004D4227 /* fb_wave.png in Resources */ = {isa = PBXBuildFile; fileRef = 046E26211BB7BF2E004D4227 /* fb_wave.png */; };
+		046E26261BB80D50004D4227 /* HalfWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E26251BB80D50004D4227 /* HalfWaveView.m */; };
+		046E262A1BB80D8D004D4227 /* WaveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E26281BB80D8D004D4227 /* WaveCell.m */; };
+		046E262B1BB80D8D004D4227 /* WaveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046E26291BB80D8D004D4227 /* WaveCell.xib */; };
+		046E262E1BB80DB7004D4227 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E262D1BB80DB7004D4227 /* WaveView.m */; };
+		046E26371BB811DC004D4227 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E26361BB811DC004D4227 /* TableViewController.m */; };
+		046E263A1BB81220004D4227 /* TYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E26391BB81220004D4227 /* TYViewController.m */; };
+		046E26421BB81B12004D4227 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E26411BB81B12004D4227 /* UIViewAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,21 @@
 		046E260E1BB7BE7F004D4227 /* TYWaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYWaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		046E26131BB7BE7F004D4227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		046E26141BB7BE7F004D4227 /* TYWaveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYWaveTests.m; sourceTree = "<group>"; };
+		046E26201BB7BF2E004D4227 /* fb_rotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb_rotation.png; sourceTree = "<group>"; };
+		046E26211BB7BF2E004D4227 /* fb_wave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb_wave.png; sourceTree = "<group>"; };
+		046E26241BB80D50004D4227 /* HalfWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HalfWaveView.h; sourceTree = "<group>"; };
+		046E26251BB80D50004D4227 /* HalfWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HalfWaveView.m; sourceTree = "<group>"; };
+		046E26271BB80D8D004D4227 /* WaveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveCell.h; sourceTree = "<group>"; };
+		046E26281BB80D8D004D4227 /* WaveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveCell.m; sourceTree = "<group>"; };
+		046E26291BB80D8D004D4227 /* WaveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WaveCell.xib; sourceTree = "<group>"; };
+		046E262C1BB80DB7004D4227 /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		046E262D1BB80DB7004D4227 /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
+		046E26351BB811DC004D4227 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		046E26361BB811DC004D4227 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		046E26381BB81220004D4227 /* TYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewController.h; sourceTree = "<group>"; };
+		046E26391BB81220004D4227 /* TYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewController.m; sourceTree = "<group>"; };
+		046E26401BB81B12004D4227 /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
+		046E26411BB81B12004D4227 /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +105,17 @@
 		046E25F71BB7BE7F004D4227 /* TYWave */ = {
 			isa = PBXGroup;
 			children = (
+				046E261E1BB7BED9004D4227 /* TYWaveAnimate */,
 				046E25FC1BB7BE7F004D4227 /* AppDelegate.h */,
 				046E25FD1BB7BE7F004D4227 /* AppDelegate.m */,
 				046E25FF1BB7BE7F004D4227 /* ViewController.h */,
 				046E26001BB7BE7F004D4227 /* ViewController.m */,
+				046E26401BB81B12004D4227 /* UIViewAdditions.h */,
+				046E26411BB81B12004D4227 /* UIViewAdditions.m */,
+				046E26351BB811DC004D4227 /* TableViewController.h */,
+				046E26361BB811DC004D4227 /* TableViewController.m */,
+				046E26381BB81220004D4227 /* TYViewController.h */,
+				046E26391BB81220004D4227 /* TYViewController.m */,
 				046E26021BB7BE7F004D4227 /* Main.storyboard */,
 				046E26051BB7BE7F004D4227 /* Images.xcassets */,
 				046E26071BB7BE7F004D4227 /* LaunchScreen.xib */,
@@ -117,6 +148,30 @@
 				046E26131BB7BE7F004D4227 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		046E261E1BB7BED9004D4227 /* TYWaveAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				046E261F1BB7BEF2004D4227 /* images */,
+				046E26241BB80D50004D4227 /* HalfWaveView.h */,
+				046E26251BB80D50004D4227 /* HalfWaveView.m */,
+				046E26271BB80D8D004D4227 /* WaveCell.h */,
+				046E26281BB80D8D004D4227 /* WaveCell.m */,
+				046E262C1BB80DB7004D4227 /* WaveView.h */,
+				046E262D1BB80DB7004D4227 /* WaveView.m */,
+			);
+			name = TYWaveAnimate;
+			sourceTree = "<group>";
+		};
+		046E261F1BB7BEF2004D4227 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				046E26291BB80D8D004D4227 /* WaveCell.xib */,
+				046E26201BB7BF2E004D4227 /* fb_rotation.png */,
+				046E26211BB7BF2E004D4227 /* fb_wave.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +218,7 @@
 		046E25ED1BB7BE7F004D4227 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = mac;
 				TargetAttributes = {
 					046E25F41BB7BE7F004D4227 = {
@@ -199,7 +254,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046E262B1BB80D8D004D4227 /* WaveCell.xib in Resources */,
+				046E26231BB7BF2E004D4227 /* fb_wave.png in Resources */,
 				046E26041BB7BE7F004D4227 /* Main.storyboard in Resources */,
+				046E26221BB7BF2E004D4227 /* fb_rotation.png in Resources */,
 				046E26091BB7BE7F004D4227 /* LaunchScreen.xib in Resources */,
 				046E26061BB7BE7F004D4227 /* Images.xcassets in Resources */,
 			);
@@ -220,8 +278,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				046E26011BB7BE7F004D4227 /* ViewController.m in Sources */,
+				046E262A1BB80D8D004D4227 /* WaveCell.m in Sources */,
 				046E25FE1BB7BE7F004D4227 /* AppDelegate.m in Sources */,
+				046E26421BB81B12004D4227 /* UIViewAdditions.m in Sources */,
+				046E26261BB80D50004D4227 /* HalfWaveView.m in Sources */,
 				046E25FB1BB7BE7F004D4227 /* main.m in Sources */,
+				046E26371BB811DC004D4227 /* TableViewController.m in Sources */,
+				046E262E1BB80DB7004D4227 /* WaveView.m in Sources */,
+				046E263A1BB81220004D4227 /* TYViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +348,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -348,7 +413,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TYWave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -358,7 +425,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TYWave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -377,6 +446,7 @@
 				);
 				INFOPLIST_FILE = TYWaveTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYWave.app/TYWave";
 			};
@@ -392,6 +462,7 @@
 				);
 				INFOPLIST_FILE = TYWaveTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYWave.app/TYWave";
 			};
@@ -416,6 +487,7 @@
 				046E261A1BB7BE7F004D4227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046E261B1BB7BE7F004D4227 /* Build configuration list for PBXNativeTarget "TYWaveTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +496,7 @@
 				046E261D1BB7BE7F004D4227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
